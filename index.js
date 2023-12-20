@@ -11,7 +11,6 @@ app.get('/', (req, res) => {
     res.send('products api up and running');
 });
 
-
 // /products
 app.use('/products', productRoutes);
 // /users
