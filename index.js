@@ -8,7 +8,7 @@ const userRoutes = require('./routes/userRoutes');
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send('products api running latest deployment');
+    res.send('products api running');
 });
 
 app.get('/ping', (req, res) => {
