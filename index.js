@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 
 app.get('/ping', (req, res) => {
     res.send('PONG')
-})
+});
 // /products
 app.use('/products', productRoutes);
 // /users
