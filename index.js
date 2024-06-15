@@ -13,6 +13,9 @@ app.get('/', (req, res) => {
 app.get('/ping', (req, res) => {
     res.send('<=PONG=>');
 });
+app.get('/country', (req, res) => {
+    res.send('<=INDIA=>');
+});
 
 app.get('/ping', (req, res) => {
     res.send('PONG')
