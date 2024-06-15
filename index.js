@@ -10,6 +10,9 @@ app.use(express.json());
 app.get('/', (req, res) => {
     res.send('products api running new deploy');
 });
+app.get('/ping', (req, res) => {
+    res.send('PONG');
+});
 
 app.get('/ping', (req, res) => {
     res.send('PONG')
